@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Contoh validasi sederhana
         if (username === "user" && password === "user") {
             // Jika login berhasil, Anda dapat melakukan redirect ke halaman lain
-            window.location.href = "index.html";
+            window.location.href = "indexx.html";
         } else {
             // Jika login gagal, tampilkan pesan error
             errorMessage.textContent = "Username atau password salah.";

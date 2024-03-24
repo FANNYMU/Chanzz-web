@@ -1,0 +1,71 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    height: 100vh;
+    /* Ganti url("background.jpg") dengan nama file gambar latar belakang Anda */
+    background-image: url("Camping.jpg");
+    background-size: cover; /* Untuk mengisi area dengan gambar */
+    background-position: center; /* Untuk mengatur posisi gambar di tengah */
+}
+
+/* CSS lainnya seperti yang sudah ada sebelumnya */
+
+
+.countainer-navbar {
+background-color: #cfcfcf;
+width: 100%;
+height: 100px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2%;
+}
+
+.li-navbar {
+    list-style-type: none;
+    margin: 5px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.ul-navbar {
+justify-content: center;
+height: 100px;
+align-items: center;
+display: flex;
+}
+
+.countainer-content {
+         display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content { 
+    width: 30%;
+    height: 30%;
+
+}
